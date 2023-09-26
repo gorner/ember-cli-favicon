@@ -1,14 +1,16 @@
 {
-  "name": "ember-cli-favicon",
-  "version": "3.0.0",
+  "name": "@gorner/ember-cli-favicon",
+  "version": "4.0.0-alpha.1",
   "description": "Automatically build and include all the various platform / device favicon formats from a single source public/favicon.png.",
   "keywords": [
     "ember-addon",
     "favicon"
   ],
-  "repository": "davewasmer/ember-cli-favicon",
+  "repository": "gorner/ember-cli-favicon",
   "license": "MIT",
-  "author": "Dave Wasmer",
+  "contributors": [
+    "Dave Wasmer"
+  ],
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -33,9 +35,9 @@
     }
   },
   "dependencies": {
-    "broccoli-favicon": "^3.0.0",
+    "@gorner/broccoli-favicon": "^4.0.0-alpha.1",
     "broccoli-merge-trees": "^4.2.0",
-    "ember-cli-babel": "^7.26.6",
+    "ember-cli-babel": "^7.26.6 || ^8.0.0",
     "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
@@ -77,14 +79,17 @@
     "prettier": "^2.4.1",
     "qunit": "^2.17.2",
     "qunit-dom": "^2.0.0",
-    "release-it": "^14.11.6",
+    "release-it": "^16.2.0",
     "webpack": "^5.58.2"
+  },
+  "overrides": {
+    "ansi-html": "^0.0.9"
   },
   "engines": {
     "node": "12.* || 14.* || >= 16"
   },
   "ember": {
-    "edition": "classic"
+    "edition": "octane"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

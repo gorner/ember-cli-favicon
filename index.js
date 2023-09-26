@@ -1,6 +1,6 @@
 'use strict';
 
-const Favicon = require('broccoli-favicon').default;
+const Favicon = require('@gorner/broccoli-favicon').default;
 const mergeTrees = require('broccoli-merge-trees');
 const deepMerge = require('lodash.merge');
 
