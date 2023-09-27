@@ -1,6 +1,6 @@
 {
   "name": "@gorner/ember-cli-favicon",
-  "version": "4.0.0-alpha.1",
+  "version": "4.0.0-alpha.2",
   "description": "Automatically build and include all the various platform / device favicon formats from a single source public/favicon.png.",
   "keywords": [
     "ember-addon",

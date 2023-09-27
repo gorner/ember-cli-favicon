@@ -49,8 +49,6 @@ var app = new EmberApp({
         android: isProductionEnv,
         appleIcon: isProductionEnv,
         appleStartup: isProductionEnv,
-        coast: isProductionEnv,
-        firefox: isProductionEnv,
         windows: isProductionEnv,
         yandex: isProductionEnv
       }
